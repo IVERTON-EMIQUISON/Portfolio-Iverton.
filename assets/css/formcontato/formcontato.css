@@ -1,0 +1,97 @@
+.formcontato__contacto {
+    background-color: #e2eaf8;
+    align-items: center;
+}
+
+.formcontato--esquerda {
+    flex: 0 0 50%;
+   
+}
+
+.formcontato__text {
+    flex: 1;
+}
+
+.formcontato__img {
+    margin: 8rem;
+    max-width: 100%;
+ 
+}
+
+.formcontato__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.formcontato__subtext {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.formcontato__form {
+    margin-top: 2rem;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formcontato__botao {
+    background-color: #2A7AE4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formcontato__botao:hover {
+    background-color: #45a049;
+}
+
+.formcontato__botao:focus {
+    outline: none;
+}
+
+
+@media screen and (min-width: 0) {/*tela de celular*/
+    .formcontato__img {
+        display: none;/*não estará visivel a logo*/
+      
+    }
+    .formcontato--esquerda {
+        width: 200px; /* Defina o tamanho desejado para a largura */    
+        border: 2px solidv   #e2eaf8;;
+    }
+    .formcontato__contacto{
+        display: block;
+        margin: 1rem;
+    }
+    .formcontato__form {
+        margin-right: 4rem;
+        
+    }
+    .formcontato__text {
+        padding: 1rem;
+    }
+    
+}
+@media screen and (min-width: 1279px) {/*tela de celular*/
+    .formcontato__form {
+        margin-right: 13rem;
+    }
+    .formcontato__contacto{
+        width: 100%;
+        display: flex;
+    }
+    .formcontato__img {
+        display: block;
+        width: 80%;
+    }
+    
+
+}
+

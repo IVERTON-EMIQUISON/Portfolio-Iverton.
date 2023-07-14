@@ -1,0 +1,12 @@
+.title__network__item { 
+    text-align: left;
+    margin-right: 2rem;
+    list-style: none;
+
+}
+
+.title__network__item a {
+    color: #363434;
+    font-family: Arial, sans-serif; 
+    text-decoration: none;
+}

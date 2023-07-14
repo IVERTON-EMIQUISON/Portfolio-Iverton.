@@ -1,0 +1,24 @@
+
+.hobbies__box {
+    background: #FFFFFF;
+    width: 9.75rem;
+    height: 7.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 0.5rem;
+   
+}
+
+@media (min-width: 100px) {
+    .hobbies__box{
+       width: 150px;
+       height: 150px; 
+    }
+}
+                                                                                                                                    
+@media screen and (min-width: 798px) {
+    .hobbies__box    {
+        width: 150px;
+    }
+}

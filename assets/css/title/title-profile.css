@@ -1,0 +1,20 @@
+.title__profile {
+    width: 98px;
+    height: 98px;
+}
+
+@media (min-width: 0){
+    .title__profile {
+        width: 200px;
+        height: 200px;
+        
+    }
+}
+
+@media (min-width: 768px){
+    .title__profile {
+        width: 250px;
+        height: 250px;
+        order: 2;
+    }
+}

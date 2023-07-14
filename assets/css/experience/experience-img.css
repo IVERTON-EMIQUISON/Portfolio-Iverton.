@@ -1,0 +1,19 @@
+.experience__img {
+    margin-left: 2.5rem;
+    margin-top: 3rem; 
+}
+
+@media (min-width: 0){
+    .experience__img{
+        padding-right:1rem;
+        text-align: center;
+        width: 26rem;
+    }
+}
+
+@media (min-width: 798px){
+    .experience__img{ 
+       
+        width: 60%; 
+    }
+}

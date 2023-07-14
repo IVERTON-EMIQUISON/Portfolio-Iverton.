@@ -1,0 +1,15 @@
+.title__network{
+    display: flex;
+    gap: 8px;
+    
+}
+@media (min-width: 768px){
+    .title__network {
+        gap: 32px;
+    }
+}
+@media (min-width: 768px){
+    .title__network, .title__bio, .title__subsection {
+        width: 524px;
+    }
+}

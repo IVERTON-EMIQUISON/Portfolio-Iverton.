@@ -1,0 +1,38 @@
+.Apeperia__info {
+    margin-top: 1rem;
+   text-align: center;
+}
+
+.Apeperia__section__title {
+    margin-top: 3rem;
+    color: #464646;
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: 700;
+}
+
+.Apeperia__text {
+    color: #464646;
+    margin: 0.7rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.Apeperia__title {
+    color: #050505;
+    font-size: 1.375rem; 
+}
+
+.Apeperia__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+@media (min-width: 768px){
+    .Apeperia__box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

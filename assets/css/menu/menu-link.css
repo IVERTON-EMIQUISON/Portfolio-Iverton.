@@ -1,0 +1,23 @@
+.menu__link{
+    color: #808080;
+    display: inline-block;
+    margin-right: 0.7rem;
+    margin-bottom: 1.25rem;
+    margin-left: 0.7rem;
+}
+
+@media screen and (min-width: 0)  {
+    .menu__link {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 798px) {
+    .menu__link {
+          font-size: 1rem;
+    }
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+  }

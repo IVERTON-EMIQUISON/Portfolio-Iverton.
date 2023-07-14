@@ -1,0 +1,14 @@
+.academic__courses__item__img {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width: 190rem;
+    height: 254px;
+
+}
+@media (min-width: 768px){
+    .academic__courses {
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+}

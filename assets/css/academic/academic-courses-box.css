@@ -1,0 +1,10 @@
+.academic__courses__box {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-right: 1.2rem;
+    width: 25rem;
+    height: 19rem;
+   
+}

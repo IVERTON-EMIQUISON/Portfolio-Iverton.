@@ -1,0 +1,14 @@
+.experiencie__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+@media (min-width: 768px){
+    .experiencie__box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

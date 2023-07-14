@@ -1,0 +1,15 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1rem;
+    margin-left: 5rem;
+    
+}
+
+@media (min-width: 798px){
+.about__container {
+       width: 704px;
+   }
+
+}

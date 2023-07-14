@@ -1,0 +1,42 @@
+.Apeperia__description {
+    display: flex;
+    justify-content: space-between;
+   
+  }   
+  
+  .Apeperia__repo {
+    border-radius: 1rem 2rem; /* Define o raio de borda do botão */
+    
+  }
+  
+  .Apeperia__botao--repo {
+    margin-left: 1.5rem;
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 1px solid #2A7AE4;
+    
+  }
+  
+  .Apeperia__demo {
+    border-radius: 1rem 2rem;
+    
+  }
+  
+  .Apeperia__botao--demo {
+    margin-left: 1rem;
+    background-color: #3180e8;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 1px solid #2A7AE4;
+    
+  }
+  
+  
+  

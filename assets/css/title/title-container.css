@@ -1,0 +1,26 @@
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+}
+
+@media (min-width: 0){
+    .title__container {
+        order: 1;
+    }
+}
+
+@media (min-width: 1000px){
+    .title__container {
+        gap: 16px;
+    }
+}
+@media (min-width: 768px){
+    .title__container {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+}

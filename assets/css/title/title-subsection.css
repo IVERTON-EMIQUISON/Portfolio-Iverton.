@@ -1,0 +1,20 @@
+/* .title__subsection {
+    /* font-size: 1.5rem;
+    font-weight: normal; *
+    color: #464646;
+    margin-top: 2rem;
+    font-size: 1.375rem; /* Convertido de 22px para rem *
+    font-weight: 400;
+    line-height: 1.625rem; /* Convertido de 26px para rem *
+   
+    
+} */
+.title__subsection{
+    font-size: 1rem;
+    color: var(--preto);
+}
+@media (min-width: 768px){
+    .title__network, .title__bio, .title__subsection {
+        width: 524px;
+    }
+}
