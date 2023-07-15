@@ -1,5 +1,4 @@
 .experience__description {
-  display: flex;
   justify-content: space-between;
  
 }   
@@ -20,7 +19,7 @@
   border: 1px solid #2A7AE4;
   
 }
-
+ 
 .experience__demo {
   border-radius: 1rem 2rem;
   
